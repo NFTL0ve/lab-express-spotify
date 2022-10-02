@@ -150,7 +150,7 @@ We are good to go. Let's open the [spotify-web-api-node](https://www.npmjs.com/p
 
 Create a route that renders a simple home page. You'll need a basic index route, that renders a home page. On this page, you should have a small search `form` that has an input field receiving an artist's name and a button that submits the request.
 
-This form should direct its query to `/artist-search` (`action="/artist-search", method="GET"`).
+This form should direct its query to `/artist-search` (`action="/", method="GET"`).
 The result should be something along these lines but leave styling for the end.
 
 ![](https://i.imgur.com/YuTA0vQ.png=400x)

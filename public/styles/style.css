@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(200, 100, 143);
+    padding: 4% 10%;
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem auto;
+}
+
+
+form {
+    border: 1px solid #333;
+    padding: 1rem 0;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+form input, form button {
+    display: block;
+    margin: 1rem auto;
+}
+
+img.full-width {
+    max-width: 100%;
+}
+

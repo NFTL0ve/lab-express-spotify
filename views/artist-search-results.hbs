@@ -1,0 +1,19 @@
+
+<h1>{{artist}}</h1>
+
+{{#if album}}
+    <h3>Album: {{album}}</h3>
+{{else}}
+    <h3>no albums to diplay</h3>
+
+ <button type="view-album">View Album</button>
+
+{{#if song}}
+    <h3>Songs:</h3>
+
+    <ul>
+        {{#each song}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+{{/if}}

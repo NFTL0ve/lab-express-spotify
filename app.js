@@ -44,7 +44,7 @@ app.get('artists' , (req, res) => {
   const artist = req.query.artist 
   spotifyApi
   .searchArtist(artist)
-  .thenb(data => console.log(data.body.artists))
+  .then(data => console.log(data.body.artists))
   .catch(error=> console.log('Some error in search: ' , error))
 })
 
